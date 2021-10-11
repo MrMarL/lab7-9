@@ -8,7 +8,7 @@ namespace Rabota1
 {
     class C:B
     {
-        public Object aa;
-        public Object aaa;
+        //public Object aa;
+        //public Object aaa;
     }
 }

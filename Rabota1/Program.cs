@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,16 +11,12 @@ namespace Rabota1
     {
         static void Main(string[] args)
         {
-            A a1 = new A();
-            A a2 = new A();
-            A a3 = new A();
+            Get get = new Get();
             B b1 = new B();
-            C c1 = new C();
-
-            b1.a = a1;
-            c1.a = b1;
-            c1.aa = a2;
-            c1.aaa = a3;
+            Console.WriteLine("Введите 2 числа:");
+            List <double> x = b1.equation(get.Num(), get.Num());
+            Console.WriteLine(x.ToArray().Length==1?);
+            Console.ReadKey();
         }
     }
 }
