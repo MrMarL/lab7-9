@@ -14,13 +14,9 @@ namespace Mark
             if (a == 0)
                 return solve(b, c);
 
-            MyMarkLog.I().log("Определено, что это квадратное уравнение");
-
             X = new List <double>();
 
             double d = Deck(a,b,c);
-            if (d < 0)
-                throw new MarkExeption("Ошибка: уравнение не имеет решений.");
             if (d > 0) // Условие при дискриминанте больше нуля
             {
                 X.Add((-b + Math.Sqrt(d)) / (2 * a));

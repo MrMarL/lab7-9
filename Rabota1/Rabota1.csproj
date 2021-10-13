@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mark\Equation.cs" />
-    <Compile Include="Mark\MarkExeption.cs" />
     <Compile Include="Mark\QuadraticEquation.cs" />
     <Compile Include="core\EquationInterface.cs" />
     <Compile Include="Mark\GetNum.cs" />
@@ -73,8 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
-    <None Include="Graph1.dgml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
