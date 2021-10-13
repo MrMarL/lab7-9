@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace core
+namespace Rabota1
 {
-    interface LogInterface
+    class B:A
     {
-        LogInterface log(string str);
-        LogInterface write();
+        public Object a;
     }
 }
-
-
