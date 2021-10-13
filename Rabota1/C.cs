@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace core
+namespace Rabota1
 {
-    public interface EquationInterface
+    class C:B
     {
-        List<double> solve(double a, double b, double c);
+        //public Object aa;
+        //public Object aaa;
     }
 }
